@@ -21,7 +21,7 @@
 
     function onLoadSDK() {
         console.log('called onSDKLoad');
-        var token = '95671c75b9ec486f687f523a7c37a35d';
+        var token = '97c9e72656806e8ef34469e22ba47efcdc7a016bc2ba2c120075f28629e767aa';
         var configVersion = '1.0.0';
         self.optimoveSDK.initialize(token, configVersion, onSDKInitialized, 'info');
     }
@@ -132,7 +132,7 @@
     var action1 = document.getElementById('action1-btn');
     if(action1 != null)
     {
-
+        
         action1.addEventListener('click', updateAction );
     }
 
@@ -152,6 +152,9 @@
     {
         action4.addEventListener('click', updateAction );
     }
+
+
+
 
 });
 
