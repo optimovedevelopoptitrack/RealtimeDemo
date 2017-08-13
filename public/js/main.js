@@ -22,7 +22,7 @@
     function onLoadSDK() {
         console.log('called onSDKLoad');
         var token = '97c9e72656806e8ef34469e22ba47efcdc7a016bc2ba2c120075f28629e767aa';
-        var configVersion = '1.0.0';
+        var configVersion = '1.0.1';
         self.optimoveSDK.initialize(token, configVersion, onSDKInitialized, 'info');
     }
 
